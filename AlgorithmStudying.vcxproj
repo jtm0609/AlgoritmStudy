@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{BED7AC56-D77B-4E4A-B920-40123538816E}</ProjectGuid>
+    <RootNamespace>AlgorithmStudying</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="프로그래머스 n진수게임.cpp" />
+    <ClCompile Include="프로그래머스 뉴스클리어링.cpp" />
+    <ClCompile Include="프로그래머스 다트게임.cpp" />
+    <ClCompile Include="프로그래머스 비밀지도.cpp" />
+    <ClCompile Include="프로그래머스 셔틀버스.cpp" />
+    <ClCompile Include="프로그래머스 추석트래픽.cpp" />
+    <ClCompile Include="프로그래머스 캐시.cpp" />
+    <ClCompile Include="프로그래머스 프렌즈블록.cpp" />
+    <ClCompile Include="프로그래머스 실패율.cpp" />
+    <ClCompile Include="2020 NHN 시멘트(2번) .cpp" />
+    <ClCompile Include="2020 카카오하반기 1번.cpp" />
+    <ClCompile Include="2020 카카오하반기 2번.cpp" />
+    <ClCompile Include="2020 카카오하반기 3번.cpp" />
+    <ClCompile Include="2020 하반기 라인 1번.cpp" />
+    <ClCompile Include="2020 하반기 라인 2번.cpp" />
+    <ClCompile Include="2020 하반기 라인 3번.cpp" />
+    <ClCompile Include="프로그래머스 가장큰수.cpp" />
+    <ClCompile Include="프로그래머스 괄호변환.cpp" />
+    <ClCompile Include="프로그래머스 기능개발.cpp" />
+    <ClCompile Include="나동빈예제(다익스트라).cpp" />
+    <ClCompile Include="나동빈예제(단순문자열매칭).cpp" />
+    <ClCompile Include="나동빈예제(이분탐색).cpp" />
+    <ClCompile Include="프로그래머스 다리를지나는 트럭.cpp" />
+    <ClCompile Include="프로그래머스 더맵게.cpp" />
+    <ClCompile Include="프로그래머스 문자열압축.cpp" />
+    <ClCompile Include="백준 1018.cpp" />
+    <ClCompile Include="백준 1260.cpp" />
+    <ClCompile Include="백준 1325.cpp" />
+    <ClCompile Include="백준 13458.cpp" />
+    <ClCompile Include="백준 13460.cpp" />
+    <ClCompile Include="백준 14499.cpp" />
+    <ClCompile Include="백준 14500.cpp" />
+    <ClCompile Include="백준 14501.cpp" />
+    <ClCompile Include="백준 14502.cpp" />
+    <ClCompile Include="백준 14503.cpp" />
+    <ClCompile Include="백준 14888.cpp" />
+    <ClCompile Include="백준 14889.cpp" />
+    <ClCompile Include="백준 14891.cpp" />
+    <ClCompile Include="백준 1520.cpp" />
+    <ClCompile Include="백준 15683.cpp" />
+    <ClCompile Include="백준 15684.cpp" />
+    <ClCompile Include="백준 15685.cpp" />
+    <ClCompile Include="백준 15686.cpp" />
+    <ClCompile Include="백준 16236.cpp" />
+    <ClCompile Include="백준 1937.cpp" />
+    <ClCompile Include="백준 2206.cpp" />
+    <ClCompile Include="백준 2468.cpp" />
+    <ClCompile Include="백준 2573.cpp" />
+    <ClCompile Include="백준 2606.cpp" />
+    <ClCompile Include="백준 3190.cpp" />
+    <ClCompile Include="백준 7576.cpp" />
+    <ClCompile Include="백준 9466.cpp" />
+    <ClCompile Include="백준.cpp" />
+    <ClCompile Include="백준12100.cpp" />
+    <ClCompile Include="백준14890.cpp" />
+    <ClCompile Include="백준2178(BFS활용).cpp" />
+    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="프로그래머스 숫자의표현.cpp" />
+    <ClCompile Include="프로그래머스 스킬트리.cpp" />
+    <ClCompile Include="프로그래머스 오픈채팅.cpp" />
+    <ClCompile Include="프로그래머스 위장.cpp" />
+    <ClCompile Include="프로그래머스 전화번호목록.cpp" />
+    <ClCompile Include="프로그래머스 주식가격.cpp" />
+    <ClCompile Include="최대공약수,최소공배수.cpp" />
+    <ClCompile Include="코드업 DFSBFS4421.cpp" />
+    <ClCompile Include="코드업 DFSBFS4503.cpp" />
+    <ClCompile Include="코드업 DP2601.cpp" />
+    <ClCompile Include="코드업 그리디2001.cpp" />
+    <ClCompile Include="코드업 그리디3120.cpp" />
+    <ClCompile Include="코드업 그리디3301.cpp" />
+    <ClCompile Include="코드업 그리디3321.cpp" />
+    <ClCompile Include="프로그래머스 폰켓몬.cpp" />
+    <ClCompile Include="프로그래머스 프린터.cpp" />
+    <ClCompile Include="프로그래머스 피보나치수.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

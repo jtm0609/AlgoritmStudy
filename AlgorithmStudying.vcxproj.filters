@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{b5d98552-0ae5-426b-b268-2882c8cd5a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\LV2">
+      <UniqueIdentifier>{0c62f37f-2f02-47d3-b858-288b36b662a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{a0d0e86f-8084-422a-b799-9f9bd15d1678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다익스트라 알고리즘">
+      <UniqueIdentifier>{a321ae99-79e8-4380-bf50-cecddc558a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\이분탐색 알고리즘">
+      <UniqueIdentifier>{c94653fe-b044-4923-8c27-6e3a8d946ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\코드업">
+      <UniqueIdentifier>{6c410c05-20ff-432a-93f3-d3f286153be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS/BFS 알고리즘">
+      <UniqueIdentifier>{aec718ad-ebcf-483b-88c9-960e6c203398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\최단거리 알고리즘%28BFS%29">
+      <UniqueIdentifier>{2b89a98c-be0b-4fe5-8d9d-51a830bc8fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\단순 문자열 알고리즘">
+      <UniqueIdentifier>{5eeffb1d-cf8e-49ca-8f6a-b91819f9207e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 카카오하반기 1번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 카카오하반기 2번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 카카오하반기 3번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 하반기 라인 1번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 하반기 라인 2번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020 하반기 라인 3번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 n진수게임.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 뉴스클리어링.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 다트게임.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 비밀지도.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 셔틀버스.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 추석트래픽.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 캐시.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 프렌즈블록.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 실패율.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 가장큰수.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 괄호변환.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 기능개발.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 다리를지나는 트럭.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 더맵게.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 문자열압축.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1018.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1260.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1325.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1520.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1937.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2468.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2573.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2606.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 3190.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 7576.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 9466.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 13458.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 13460.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14499.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14500.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14501.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14502.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14503.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14888.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14889.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 14891.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 15683.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 15684.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 15685.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 15686.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 16236.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준12100.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준14890.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="최대공약수,최소공배수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 폰켓몬.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 프린터.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 피보나치수.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="나동빈예제(다익스트라).cpp">
+      <Filter>소스 파일\다익스트라 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="나동빈예제(이분탐색).cpp">
+      <Filter>소스 파일\이분탐색 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 숫자의표현.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 스킬트리.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 오픈채팅.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 위장.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 전화번호목록.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 주식가격.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 DFSBFS4421.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2206.cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="백준2178(BFS활용).cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 DFSBFS4503.cpp">
+      <Filter>소스 파일\코드업</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 DP2601.cpp">
+      <Filter>소스 파일\코드업</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 그리디2001.cpp">
+      <Filter>소스 파일\코드업</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 그리디3120.cpp">
+      <Filter>소스 파일\코드업</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 그리디3301.cpp">
+      <Filter>소스 파일\코드업</Filter>
+    </ClCompile>
+    <ClCompile Include="코드업 그리디3321.cpp">
+      <Filter>소스 파일\코드업</Filter>
+    </ClCompile>
+    <ClCompile Include="나동빈예제(단순문자열매칭).cpp">
+      <Filter>소스 파일\단순 문자열 알고리즘</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
