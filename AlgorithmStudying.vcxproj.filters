@@ -42,9 +42,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -263,6 +260,12 @@
     </ClCompile>
     <ClCompile Include="나동빈예제(단순문자열매칭).cpp">
       <Filter>소스 파일\단순 문자열 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 H-index.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 구명보트.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

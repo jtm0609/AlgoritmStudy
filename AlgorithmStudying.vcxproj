@@ -123,6 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="프로그래머스 구명보트.cpp" />
+    <ClCompile Include="프로그래머스 H-index.cpp" />
     <ClCompile Include="프로그래머스 n진수게임.cpp" />
     <ClCompile Include="프로그래머스 뉴스클리어링.cpp" />
     <ClCompile Include="프로그래머스 다트게임.cpp" />
@@ -179,7 +181,6 @@
     <ClCompile Include="백준12100.cpp" />
     <ClCompile Include="백준14890.cpp" />
     <ClCompile Include="백준2178(BFS활용).cpp" />
-    <ClCompile Include="소스.cpp" />
     <ClCompile Include="프로그래머스 숫자의표현.cpp" />
     <ClCompile Include="프로그래머스 스킬트리.cpp" />
     <ClCompile Include="프로그래머스 오픈채팅.cpp" />
