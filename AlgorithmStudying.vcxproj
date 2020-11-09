@@ -128,10 +128,14 @@
     <ClCompile Include="프로그래머스 n진수게임.cpp" />
     <ClCompile Include="프로그래머스 뉴스클리어링.cpp" />
     <ClCompile Include="프로그래머스 다트게임.cpp" />
+    <ClCompile Include="프로그래머스 땅따먹기.cpp" />
+    <ClCompile Include="프로그래머스 방금그곡.cpp" />
     <ClCompile Include="프로그래머스 비밀지도.cpp" />
     <ClCompile Include="프로그래머스 셔틀버스.cpp" />
     <ClCompile Include="프로그래머스 추석트래픽.cpp" />
     <ClCompile Include="프로그래머스 캐시.cpp" />
+    <ClCompile Include="프로그래머스 컬러링북.cpp" />
+    <ClCompile Include="프로그래머스 튜플.cpp" />
     <ClCompile Include="프로그래머스 프렌즈블록.cpp" />
     <ClCompile Include="프로그래머스 실패율.cpp" />
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp" />
@@ -177,7 +181,6 @@
     <ClCompile Include="백준 3190.cpp" />
     <ClCompile Include="백준 7576.cpp" />
     <ClCompile Include="백준 9466.cpp" />
-    <ClCompile Include="백준.cpp" />
     <ClCompile Include="백준12100.cpp" />
     <ClCompile Include="백준14890.cpp" />
     <ClCompile Include="백준2178(BFS활용).cpp" />
@@ -198,6 +201,7 @@
     <ClCompile Include="프로그래머스 폰켓몬.cpp" />
     <ClCompile Include="프로그래머스 프린터.cpp" />
     <ClCompile Include="프로그래머스 피보나치수.cpp" />
+    <ClCompile Include="프로그래머스 후보키.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
