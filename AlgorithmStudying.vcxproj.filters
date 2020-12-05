@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\비트마스크 알고리즘">
       <UniqueIdentifier>{16ed1bfd-a389-4061-8693-99d0c89e104d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\해결못한 문제">
+      <UniqueIdentifier>{9b188189-f082-4f88-9dd8-c41d07ca1eb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
@@ -281,6 +284,42 @@
     </ClCompile>
     <ClCompile Include="프로그래머스 방금그곡.cpp">
       <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 짝지어계산하기.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 압축.cpp">
+      <Filter>소스 파일\프로그래머스\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 8911.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 16234.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준2947.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 19238.cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="백준17143.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준14719.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1173.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준1713.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1063.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준3048.cpp">
+      <Filter>소스 파일\백준</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

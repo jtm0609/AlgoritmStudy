@@ -123,6 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="백준 1063.cpp" />
+    <ClCompile Include="백준 1173.cpp" />
+    <ClCompile Include="백준 16234.cpp" />
+    <ClCompile Include="백준 19238.cpp" />
+    <ClCompile Include="백준 8911.cpp" />
+    <ClCompile Include="백준14719.cpp" />
+    <ClCompile Include="백준1713.cpp" />
+    <ClCompile Include="백준17143.cpp" />
+    <ClCompile Include="백준2947.cpp" />
+    <ClCompile Include="백준3048.cpp" />
     <ClCompile Include="프로그래머스 구명보트.cpp" />
     <ClCompile Include="프로그래머스 H-index.cpp" />
     <ClCompile Include="프로그래머스 n진수게임.cpp" />
@@ -132,6 +142,8 @@
     <ClCompile Include="프로그래머스 방금그곡.cpp" />
     <ClCompile Include="프로그래머스 비밀지도.cpp" />
     <ClCompile Include="프로그래머스 셔틀버스.cpp" />
+    <ClCompile Include="프로그래머스 압축.cpp" />
+    <ClCompile Include="프로그래머스 짝지어계산하기.cpp" />
     <ClCompile Include="프로그래머스 추석트래픽.cpp" />
     <ClCompile Include="프로그래머스 캐시.cpp" />
     <ClCompile Include="프로그래머스 컬러링북.cpp" />

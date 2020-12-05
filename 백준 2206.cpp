@@ -24,7 +24,7 @@
 //int dist[1001][1001][2]; //x,y좌표: z:벽을뚫지않고갔을때, 벽을뚫고갔을때
 //int d[4][2] = { {-1,0},{0,1},{1,0},{0,-1} };//북동남서
 //queue <c> q;
-//bool isInside(int a, int b) {
+//bool isinside(int a, int b) {
 //	return (a >= 0 && a < n) && (b >= 0 && b < m);
 //}
 //
@@ -44,7 +44,7 @@
 //		for (int i = 0; i < 4; i++) {
 //			int nx = x + d[i][0];
 //			int ny = y + d[i][1];
-//			if (!isInside(nx,ny)) continue;
+//			if (!isinside(nx,ny)) continue;
 //
 //			//지났던길이면 continue;
 //			//w가 0이면 벽을뚫지않고 경로를 이동했을때, w가 1이면 벽을 뚫고 경로를 이동했을때임
@@ -71,7 +71,7 @@
 //	cin >> n >> m;
 //	for (int i = 0; i < n; i++) {
 //		for (int j = 0; j < m; j++) {
-//			scanf("%1d", &map[i][j]);
+//			scanf_s("%1d", &map[i][j]);
 //		}
 //	}
 //	cout<<bfs();
