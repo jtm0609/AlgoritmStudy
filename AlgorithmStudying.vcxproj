@@ -123,10 +123,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="백준 1052.cpp" />
     <ClCompile Include="백준 1063.cpp" />
     <ClCompile Include="백준 1173.cpp" />
+    <ClCompile Include="백준 13335.cpp" />
+    <ClCompile Include="백준 13901.cpp" />
     <ClCompile Include="백준 16234.cpp" />
+    <ClCompile Include="백준 1756.cpp" />
     <ClCompile Include="백준 19238.cpp" />
+    <ClCompile Include="백준 1966.cpp" />
+    <ClCompile Include="백준 20055.cpp" />
+    <ClCompile Include="백준 2460.cpp" />
+    <ClCompile Include="백준 2980.cpp" />
+    <ClCompile Include="백준 3987.cpp" />
+    <ClCompile Include="백준 5212.cpp" />
     <ClCompile Include="백준 8911.cpp" />
     <ClCompile Include="백준14719.cpp" />
     <ClCompile Include="백준1713.cpp" />
