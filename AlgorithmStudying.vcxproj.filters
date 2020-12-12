@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\해결못한 문제">
       <UniqueIdentifier>{9b188189-f082-4f88-9dd8-c41d07ca1eb9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\그리디 알고리즘">
+      <UniqueIdentifier>{fdf2071e-86a5-494a-93c9-066464f50acc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
@@ -356,6 +359,12 @@
     </ClCompile>
     <ClCompile Include="백준 2161.cpp">
       <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1543.cpp">
+      <Filter>소스 파일\단순 문자열 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1911.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -128,9 +128,11 @@
     <ClCompile Include="백준 1173.cpp" />
     <ClCompile Include="백준 13335.cpp" />
     <ClCompile Include="백준 13901.cpp" />
+    <ClCompile Include="백준 1543.cpp" />
     <ClCompile Include="백준 16234.cpp" />
     <ClCompile Include="백준 17144.cpp" />
     <ClCompile Include="백준 1756.cpp" />
+    <ClCompile Include="백준 1911.cpp" />
     <ClCompile Include="백준 19238.cpp" />
     <ClCompile Include="백준 1966.cpp" />
     <ClCompile Include="백준 20055.cpp" />
