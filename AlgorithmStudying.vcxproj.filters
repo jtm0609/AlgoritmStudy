@@ -49,6 +49,15 @@
     <Filter Include="소스 파일\그리디 알고리즘">
       <UniqueIdentifier>{fdf2071e-86a5-494a-93c9-066464f50acc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\트리">
+      <UniqueIdentifier>{1bf00094-47e6-4daf-8f0b-f22ad0dab6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완전탐색 알고리즘">
+      <UniqueIdentifier>{1d1c373e-7b44-469f-985a-60f893f689a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP 알고리즘">
+      <UniqueIdentifier>{c14f1b40-1dfc-435d-8e3c-dd12f1eca17c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
@@ -365,6 +374,48 @@
     </ClCompile>
     <ClCompile Include="백준 1911.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2141.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1202.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 8980.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1781.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 3109.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2812.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 10800.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2012.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1753.cpp">
+      <Filter>소스 파일\다익스트라 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1504%28다익스트라 응용%29.cpp">
+      <Filter>소스 파일\다익스트라 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1967%28트리+dfs%29.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1068.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 3085.cpp">
+      <Filter>소스 파일\완전탐색 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2011.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
