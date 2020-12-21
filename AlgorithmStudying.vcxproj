@@ -125,7 +125,7 @@
   <ItemGroup>
     <ClCompile Include="백준 1052.cpp" />
     <ClCompile Include="백준 1063.cpp" />
-    <ClCompile Include="백준 1068.cpp" />
+    <ClCompile Include="백준 1068%28트리+dfs%29 기본.cpp" />
     <ClCompile Include="백준 10800.cpp" />
     <ClCompile Include="백준 1173.cpp" />
     <ClCompile Include="백준 1202.cpp" />
@@ -134,14 +134,15 @@
     <ClCompile Include="백준 1504%28다익스트라 응용%29.cpp" />
     <ClCompile Include="백준 1543.cpp" />
     <ClCompile Include="백준 16234.cpp" />
+    <ClCompile Include="백준 1697.cpp" />
     <ClCompile Include="백준 17144.cpp" />
     <ClCompile Include="백준 1753.cpp" />
     <ClCompile Include="백준 1756.cpp" />
     <ClCompile Include="백준 1781.cpp" />
     <ClCompile Include="백준 1911.cpp" />
-    <ClCompile Include="백준 19238.cpp" />
+    <ClCompile Include="%28대표%29백준 19238.cpp" />
     <ClCompile Include="백준 1966.cpp" />
-    <ClCompile Include="백준 1967%28트리+dfs%29.cpp" />
+    <ClCompile Include="백준 1967%28트리+dfs%29 응용.cpp" />
     <ClCompile Include="백준 20055.cpp" />
     <ClCompile Include="백준 2011.cpp" />
     <ClCompile Include="백준 2012.cpp" />
@@ -154,6 +155,9 @@
     <ClCompile Include="백준 3109.cpp" />
     <ClCompile Include="백준 3987.cpp" />
     <ClCompile Include="백준 5212.cpp" />
+    <ClCompile Include="백준 6603.cpp" />
+    <ClCompile Include="백준 7562.cpp" />
+    <ClCompile Include="백준 7569.cpp" />
     <ClCompile Include="백준 8911.cpp" />
     <ClCompile Include="백준 8980.cpp" />
     <ClCompile Include="백준14719.cpp" />
@@ -161,6 +165,7 @@
     <ClCompile Include="백준17143.cpp" />
     <ClCompile Include="백준2947.cpp" />
     <ClCompile Include="백준3048.cpp" />
+    <ClCompile Include="연습.cpp" />
     <ClCompile Include="프로그래머스 구명보트.cpp" />
     <ClCompile Include="프로그래머스 H-index.cpp" />
     <ClCompile Include="프로그래머스 n진수게임.cpp" />
@@ -214,7 +219,7 @@
     <ClCompile Include="백준 15686.cpp" />
     <ClCompile Include="백준 16236.cpp" />
     <ClCompile Include="백준 1937.cpp" />
-    <ClCompile Include="백준 2206.cpp" />
+    <ClCompile Include="%28대표%29백준 2206.cpp" />
     <ClCompile Include="백준 2468.cpp" />
     <ClCompile Include="백준 2573.cpp" />
     <ClCompile Include="백준 2606.cpp" />
@@ -223,7 +228,7 @@
     <ClCompile Include="백준 9466.cpp" />
     <ClCompile Include="백준12100.cpp" />
     <ClCompile Include="백준14890.cpp" />
-    <ClCompile Include="백준2178(BFS활용).cpp" />
+    <ClCompile Include="%28대표%29백준2178%28BFS활용%29.cpp" />
     <ClCompile Include="프로그래머스 숫자의표현.cpp" />
     <ClCompile Include="프로그래머스 스킬트리.cpp" />
     <ClCompile Include="프로그래머스 오픈채팅.cpp" />
@@ -231,7 +236,7 @@
     <ClCompile Include="프로그래머스 전화번호목록.cpp" />
     <ClCompile Include="프로그래머스 주식가격.cpp" />
     <ClCompile Include="최대공약수,최소공배수.cpp" />
-    <ClCompile Include="코드업 DFSBFS4421.cpp" />
+    <ClCompile Include="%28대표%29코드업 DFSBFS4421.cpp" />
     <ClCompile Include="코드업 DFSBFS4503.cpp" />
     <ClCompile Include="코드업 DP2601.cpp" />
     <ClCompile Include="코드업 그리디2001.cpp" />
@@ -242,6 +247,7 @@
     <ClCompile Include="프로그래머스 프린터.cpp" />
     <ClCompile Include="프로그래머스 피보나치수.cpp" />
     <ClCompile Include="프로그래머스 후보키.cpp" />
+    <ClCompile Include="힙정렬.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
