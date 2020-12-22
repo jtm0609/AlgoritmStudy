@@ -123,12 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="계수정렬.cpp" />
     <ClCompile Include="백준 1052.cpp" />
     <ClCompile Include="백준 1063.cpp" />
     <ClCompile Include="백준 1068%28트리+dfs%29 기본.cpp" />
     <ClCompile Include="백준 10800.cpp" />
+    <ClCompile Include="백준 10815cpp.cpp" />
     <ClCompile Include="백준 1173.cpp" />
     <ClCompile Include="백준 1202.cpp" />
+    <ClCompile Include="백준 1325.cpp" />
     <ClCompile Include="백준 13335.cpp" />
     <ClCompile Include="백준 13901.cpp" />
     <ClCompile Include="백준 1504%28다익스트라 응용%29.cpp" />
@@ -148,14 +151,16 @@
     <ClCompile Include="백준 2012.cpp" />
     <ClCompile Include="백준 2141.cpp" />
     <ClCompile Include="백준 2161.cpp" />
+    <ClCompile Include="백준 2293cpp.cpp" />
     <ClCompile Include="백준 2460.cpp" />
+    <ClCompile Include="백준 2583.cpp" />
     <ClCompile Include="백준 2812.cpp" />
     <ClCompile Include="백준 2980.cpp" />
     <ClCompile Include="백준 3085.cpp" />
     <ClCompile Include="백준 3109.cpp" />
     <ClCompile Include="백준 3987.cpp" />
     <ClCompile Include="백준 5212.cpp" />
-    <ClCompile Include="백준 6603.cpp" />
+    <ClCompile Include="%28대표%29백준 6603.cpp" />
     <ClCompile Include="백준 7562.cpp" />
     <ClCompile Include="백준 7569.cpp" />
     <ClCompile Include="백준 8911.cpp" />
@@ -165,7 +170,12 @@
     <ClCompile Include="백준17143.cpp" />
     <ClCompile Include="백준2947.cpp" />
     <ClCompile Include="백준3048.cpp" />
+    <ClCompile Include="버블정렬.cpp" />
+    <ClCompile Include="병합정렬.cpp" />
+    <ClCompile Include="삽입정렬.cpp" />
+    <ClCompile Include="선택정렬.cpp" />
     <ClCompile Include="연습.cpp" />
+    <ClCompile Include="퀵정렬.cpp" />
     <ClCompile Include="프로그래머스 구명보트.cpp" />
     <ClCompile Include="프로그래머스 H-index.cpp" />
     <ClCompile Include="프로그래머스 n진수게임.cpp" />
@@ -201,7 +211,6 @@
     <ClCompile Include="프로그래머스 문자열압축.cpp" />
     <ClCompile Include="백준 1018.cpp" />
     <ClCompile Include="백준 1260.cpp" />
-    <ClCompile Include="백준 1325.cpp" />
     <ClCompile Include="백준 13458.cpp" />
     <ClCompile Include="백준 13460.cpp" />
     <ClCompile Include="백준 14499.cpp" />

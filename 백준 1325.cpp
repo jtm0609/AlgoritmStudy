@@ -1,85 +1,64 @@
-////문제: 사다리 조작
-////알고리즘: 브루트포스+ dfs
+////문제: 효율적인 해킹
+////알고리즘: 그래프+ DFS
 //
 //#include<iostream>
+//#include<vector>
+//#include<cstring>
+//#include<algorithm>
 //using namespace std;
 //
-//int n, m, h;
-//int map[30][10];
-//int ans = 4;
+//int n, m;
+//vector<int> graph[10000+1];
+//bool visited[10000 + 1];
+//int cnt;
 //
-////문제에서 충족하는 사다리 조건이 맞는지 확인하는 함수
-//bool ladder() {
-//	//세로열을 기준
-//	for (int j = 0; j < n; j++) {
-//		int k = j;
-//		for (int i = 0; i < h; i++) {
-//			//오른쪽이 사다리가 연결되어있다면
-//			if (map[i][j]) 
-//				k += 1;
-//			
-//			//왼쪽이 사다리가 연결되어있다면
-//			else if (k > 0 && map[i][k - 1])
-//				k -= 1;		
+//void DFS(int node) {
+//	visited[node] = true;
+//	for (int i = 0; i < graph[node].size(); i++) {
+//		int next = graph[node][i];
+//		if (!visited[next]) {
+//			cnt++;
+//			DFS(next);
 //		}
-//		if (j != k)
-//			return false;
 //	}
-//	//모두 j->j면 true리턴
-//	return true;
 //
 //}
-//
-//void dfs(int cnt,int x, int y) {
-//	//현재 가장작게추가해서 사다리조작이 성공한경우케이스보다 크거나같은경우는 탈출
-//	if (ans <= cnt)
-//		return;
-//	//사다리를탄 모든세로열이 자기자신이 되었다면 최솟값 갱신
-//	if (ladder()) {
-//		if (ans > cnt) {
-//			ans = cnt;
-//			return
-//		}
-//	}
-//
-//	if (cnt == 3)
-//		return;
-//	
-//	//가로줄을 추가할 모든경우의수 찾아본다
-//	for (int i = x; i < h; i++; , y = 0) {
-//		for (int j = y; j < n - 1; j++) {
-//			//사다리가 연결되어있다면, 세로열을 2번건너뛴다(연속적으로 가로열이존재하면안되므로)
-//			if (map[i][j])
-//				j+=1;
-//			//사다리가 연결되어있지않다면 연결하고, 세로열을 2번 건너뛰고 백트래킹한다.
-//			else {
-//				map[i][j] = 1;
-//				dfs(cnt+1,i, j + 2);
-//				map[i][j] = 0;
-//			}
-//
-//				
-//		}
-//	}
-//
-//
-//}
-//
 //int main() {
-//	cin >> n >> m >> h;
-//	//사다리 연결정보 입력
+//	ios_base::sync_with_stdio(false);
+//	cin.tie(NULL);
+//	cout.tie(NULL);
+//
+//	cin >> n >> m;
 //	for (int i = 0; i < m; i++) {
-//		int l1, l2;
-//		cin >> l1 >> l2;
-//		map[i1 - 1][i2 - 1] = 1;
-//
+//		int node1, node2;
+//		cin >> node1 >> node2;
+//		//2번째 컴퓨터를 통해 첫 번째 컴퓨터를 해킹할 수 있음
+//		graph[node2].push_back(node1);
 //	}
-//	dfs(0, 0, 0);
-//	if (ans < 4)
-//		cout << ans;
-//	else
-//		cout << -1;
 //
+//	int maxCnt = 0;
+//	vector<int> ret;
+//	for (int i = 1; i <= n; i++) {
+//		//초기화 부분
+//		memset(visited, false, sizeof(visited));
+//		cnt = 0;
+//
+//		DFS(i);
+//
+//		//최댓값을 가진 노드가 여러개있다면
+//		if (maxCnt == cnt)  ret.push_back(i);
+//		
+//		//최댓값 갱신
+//		if (maxCnt < cnt) {
+//			maxCnt = cnt;
+//			ret.clear();
+//			ret.push_back(i);
+//		}
+//		
+//	}
+//	sort(ret.begin(), ret.end());
+//	for (int i = 0; i < ret.size(); i++) {
+//		cout << ret[i] << " ";
+//	}
+//	cout << endl;
 //}
-//
-//

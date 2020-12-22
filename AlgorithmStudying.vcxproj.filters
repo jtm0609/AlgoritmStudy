@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\3차원 좌표 BFS 문제">
       <UniqueIdentifier>{e27b57aa-a44d-43a1-bc2f-71053cf703c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DFS/BFS 알고리즘\그래프 DFS/BFS">
+      <UniqueIdentifier>{ddb03dbb-2037-4a15-ba4a-c40957a295df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
@@ -136,9 +139,6 @@
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
     <ClCompile Include="백준 1260.cpp">
-      <Filter>소스 파일\백준</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1325.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
     <ClCompile Include="백준 1520.cpp">
@@ -438,8 +438,38 @@
     <ClCompile Include="백준 1697.cpp">
       <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="백준 6603.cpp">
+    <ClCompile Include="%28대표%29백준 6603.cpp">
       <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="선택정렬.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="삽입정렬.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="버블정렬.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="퀵정렬.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="병합정렬.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="계수정렬.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 10815cpp.cpp">
+      <Filter>소스 파일\이분탐색 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2583.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2293cpp.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1325.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘\그래프 DFS/BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
