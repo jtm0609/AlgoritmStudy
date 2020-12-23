@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\DFS/BFS 알고리즘\그래프 DFS/BFS">
       <UniqueIdentifier>{ddb03dbb-2037-4a15-ba4a-c40957a295df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LIS 알고리즘">
+      <UniqueIdentifier>{4b2a26a1-5238-415a-aa62-94710cad11d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
@@ -426,20 +429,11 @@
     <ClCompile Include="백준 7562.cpp">
       <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
-    <ClCompile Include="%28대표%29코드업 DFSBFS4421.cpp">
-      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
-    </ClCompile>
     <ClCompile Include="백준 7569.cpp">
       <Filter>소스 파일\3차원 좌표 BFS 문제</Filter>
     </ClCompile>
     <ClCompile Include="연습.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1697.cpp">
-      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
-    </ClCompile>
-    <ClCompile Include="%28대표%29백준 6603.cpp">
-      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="선택정렬.cpp">
       <Filter>소스 파일\CS알고리즘</Filter>
@@ -462,14 +456,32 @@
     <ClCompile Include="백준 10815cpp.cpp">
       <Filter>소스 파일\이분탐색 알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="백준 2583.cpp">
-      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
-    </ClCompile>
     <ClCompile Include="백준 2293cpp.cpp">
       <Filter>소스 파일\DP 알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="백준 1325.cpp">
       <Filter>소스 파일\DFS/BFS 알고리즘\그래프 DFS/BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1965%28LIS DP%29.cpp">
+      <Filter>소스 파일\LIS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 11053(LIS lowerBound).cpp">
+      <Filter>소스 파일\LIS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="%28대표%29코드업 DFSBFS4421.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2583.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1697.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="%28대표%29백준 6603.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 16235.cpp">
+      <Filter>소스 파일\백준</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

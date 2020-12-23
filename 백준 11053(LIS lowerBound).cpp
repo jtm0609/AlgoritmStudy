@@ -1,3 +1,8 @@
+////문제: 가장 긴 증가하는 부분 수열
+////시간복잡도: O(NlogN)
+////알고리즘 : LIS + lowerBound
+////푼날짜: 2020-12-23
+//
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -36,7 +41,7 @@
 //		// arr[i]값이 더 작으면, arr[i]의 값이 lis 배열 중 어느 곳에 들어올지 이분탐색한다.
 //		else {
 //			// 0부터 j까지 탐색하면서 arr[i]가 들어갈 수 있는 위치를 찾아서 idx에 반환
-//			int idx = lower_bound(lis, lis+j , arr[i])-lis;
+//			int idx = lower_bound(lis, lis + j, arr[i]) - lis;
 //			lis[idx] = arr[i];
 //		}
 //		i += 1;

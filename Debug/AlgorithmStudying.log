@@ -1,2 +1,5 @@
-﻿  백준 2293cpp.cpp
+﻿  백준 16235.cpp
+C:\Users\jtm06\source\repos\AlgorithmStudying\AlgorithmStudying\백준 16235.cpp(33,24): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\jtm06\source\repos\AlgorithmStudying\AlgorithmStudying\백준 16235.cpp(50,25): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\jtm06\source\repos\AlgorithmStudying\AlgorithmStudying\백준 16235.cpp(63,25): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
   AlgorithmStudying.vcxproj -> C:\Users\jtm06\source\repos\AlgorithmStudying\Debug\AlgorithmStudying.exe

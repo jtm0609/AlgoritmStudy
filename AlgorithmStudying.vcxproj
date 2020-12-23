@@ -129,6 +129,7 @@
     <ClCompile Include="백준 1068%28트리+dfs%29 기본.cpp" />
     <ClCompile Include="백준 10800.cpp" />
     <ClCompile Include="백준 10815cpp.cpp" />
+    <ClCompile Include="백준 11053(LIS lowerBound).cpp" />
     <ClCompile Include="백준 1173.cpp" />
     <ClCompile Include="백준 1202.cpp" />
     <ClCompile Include="백준 1325.cpp" />
@@ -137,6 +138,7 @@
     <ClCompile Include="백준 1504%28다익스트라 응용%29.cpp" />
     <ClCompile Include="백준 1543.cpp" />
     <ClCompile Include="백준 16234.cpp" />
+    <ClCompile Include="백준 16235.cpp" />
     <ClCompile Include="백준 1697.cpp" />
     <ClCompile Include="백준 17144.cpp" />
     <ClCompile Include="백준 1753.cpp" />
@@ -144,6 +146,7 @@
     <ClCompile Include="백준 1781.cpp" />
     <ClCompile Include="백준 1911.cpp" />
     <ClCompile Include="%28대표%29백준 19238.cpp" />
+    <ClCompile Include="백준 1965%28LIS DP%29.cpp" />
     <ClCompile Include="백준 1966.cpp" />
     <ClCompile Include="백준 1967%28트리+dfs%29 응용.cpp" />
     <ClCompile Include="백준 20055.cpp" />

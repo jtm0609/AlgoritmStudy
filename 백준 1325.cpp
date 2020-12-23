@@ -1,6 +1,7 @@
 ////문제: 효율적인 해킹
 ////알고리즘: 그래프+ DFS
-//
+////푼날짜: 2020-12-22
+////참조: https://jaimemin.tistory.com/656
 //#include<iostream>
 //#include<vector>
 //#include<cstring>
