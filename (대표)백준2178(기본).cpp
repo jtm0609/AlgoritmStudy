@@ -1,6 +1,6 @@
 ////https://blockdmask.tistory.com/182 참고해서 풀었음
-////미로탐색 
-////알고리즘: bfs 최단거리
+////미로탐색 최단거리
+//
 //#include<iostream>
 //#include<queue>
 //using namespace std;

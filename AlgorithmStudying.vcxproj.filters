@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\LIS 알고리즘">
       <UniqueIdentifier>{4b2a26a1-5238-415a-aa62-94710cad11d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\투포인터 알고리즘">
+      <UniqueIdentifier>{60884715-b919-4826-b0e0-9184a3217fb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2020 NHN 시멘트(2번) .cpp">
@@ -417,13 +420,7 @@
     <ClCompile Include="힙정렬.cpp">
       <Filter>소스 파일\CS알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="%28대표%29백준 2206.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
-    </ClCompile>
     <ClCompile Include="%28대표%29백준 19238.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
-    </ClCompile>
-    <ClCompile Include="%28대표%29백준2178%28BFS활용%29.cpp">
       <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
     <ClCompile Include="백준 7562.cpp">
@@ -482,6 +479,30 @@
     </ClCompile>
     <ClCompile Include="백준 16235.cpp">
       <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 11650.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1427.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2563.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1789.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2003.cpp">
+      <Filter>소스 파일\투포인터 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="%28대표%29백준 2206%28응용%29.cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="%28대표%29백준2178%28기본%29.cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1726.cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
