@@ -19,12 +19,6 @@
     <Filter Include="소스 파일\프로그래머스\LV2">
       <UniqueIdentifier>{0c62f37f-2f02-47d3-b858-288b36b662a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\백준">
-      <UniqueIdentifier>{a0d0e86f-8084-422a-b799-9f9bd15d1678}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\다익스트라 알고리즘">
-      <UniqueIdentifier>{a321ae99-79e8-4380-bf50-cecddc558a95}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\이분탐색 알고리즘">
       <UniqueIdentifier>{c94653fe-b044-4923-8c27-6e3a8d946ee6}</UniqueIdentifier>
     </Filter>
@@ -72,6 +66,18 @@
     </Filter>
     <Filter Include="소스 파일\투포인터 알고리즘">
       <UniqueIdentifier>{60884715-b919-4826-b0e0-9184a3217fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\위상정렬 알고리즘">
+      <UniqueIdentifier>{85926251-4bdd-40c8-9d86-a73a23f76811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\플로이드 와샬 알고리즘">
+      <UniqueIdentifier>{4ec4e8ea-ae10-4bb3-baf2-d8cf1406aba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다익스트라 알고리즘">
+      <UniqueIdentifier>{a321ae99-79e8-4380-bf50-cecddc558a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{a0d0e86f-8084-422a-b799-9f9bd15d1678}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -420,9 +426,6 @@
     <ClCompile Include="힙정렬.cpp">
       <Filter>소스 파일\CS알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="%28대표%29백준 19238.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
-    </ClCompile>
     <ClCompile Include="백준 7562.cpp">
       <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
@@ -503,6 +506,18 @@
     </ClCompile>
     <ClCompile Include="백준 1726.cpp">
       <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 19238.cpp">
+      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="나동빈 예제(위상정렬).cpp">
+      <Filter>소스 파일\위상정렬 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="%28대표%29 백준 2252.cpp">
+      <Filter>소스 파일\위상정렬 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="나동빈 예제(플로이드 와샬).cpp">
+      <Filter>소스 파일\플로이드 와샬 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
