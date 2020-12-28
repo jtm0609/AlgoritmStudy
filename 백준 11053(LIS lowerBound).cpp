@@ -42,7 +42,12 @@
 //		else {
 //			// 0부터 j까지 탐색하면서 arr[i]가 들어갈 수 있는 위치를 찾아서 idx에 반환
 //			int idx = lower_bound(lis, lis + j, arr[i]) - lis;
+//
+//			//출력 테스트
+//			cout <<arr[i]<<" "<<idx << endl;
 //			lis[idx] = arr[i];
+//			//
+//
 //		}
 //		i += 1;
 //	}

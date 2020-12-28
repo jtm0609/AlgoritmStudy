@@ -28,9 +28,6 @@
     <Filter Include="소스 파일\DFS/BFS 알고리즘">
       <UniqueIdentifier>{aec718ad-ebcf-483b-88c9-960e6c203398}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\최단거리 알고리즘%28BFS%29">
-      <UniqueIdentifier>{2b89a98c-be0b-4fe5-8d9d-51a830bc8fb3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\단순 문자열 알고리즘">
       <UniqueIdentifier>{5eeffb1d-cf8e-49ca-8f6a-b91819f9207e}</UniqueIdentifier>
     </Filter>
@@ -78,6 +75,9 @@
     </Filter>
     <Filter Include="소스 파일\백준">
       <UniqueIdentifier>{a0d0e86f-8084-422a-b799-9f9bd15d1678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29">
+      <UniqueIdentifier>{2b89a98c-be0b-4fe5-8d9d-51a830bc8fb3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -151,12 +151,6 @@
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
     <ClCompile Include="백준 1260.cpp">
-      <Filter>소스 파일\백준</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1520.cpp">
-      <Filter>소스 파일\백준</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1937.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
     <ClCompile Include="백준 2468.cpp">
@@ -427,7 +421,7 @@
       <Filter>소스 파일\CS알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="백준 7562.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
     <ClCompile Include="백준 7569.cpp">
       <Filter>소스 파일\3차원 좌표 BFS 문제</Filter>
@@ -474,9 +468,6 @@
     <ClCompile Include="백준 2583.cpp">
       <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="백준 1697.cpp">
-      <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
-    </ClCompile>
     <ClCompile Include="%28대표%29백준 6603.cpp">
       <Filter>소스 파일\DFS/BFS 알고리즘</Filter>
     </ClCompile>
@@ -499,16 +490,13 @@
       <Filter>소스 파일\투포인터 알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="%28대표%29백준 2206%28응용%29.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
-    </ClCompile>
-    <ClCompile Include="%28대표%29백준2178%28기본%29.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
     <ClCompile Include="백준 1726.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
     <ClCompile Include="백준 19238.cpp">
-      <Filter>소스 파일\최단거리 알고리즘%28BFS%29</Filter>
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
     </ClCompile>
     <ClCompile Include="나동빈 예제(위상정렬).cpp">
       <Filter>소스 파일\위상정렬 알고리즘</Filter>
@@ -518,6 +506,30 @@
     </ClCompile>
     <ClCompile Include="나동빈 예제(플로이드 와샬).cpp">
       <Filter>소스 파일\플로이드 와샬 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1937.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1520.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1697.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="%28대표%29백준2178%28기본%29.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1463%28BFS%29.cpp">
+      <Filter>소스 파일\DFS/BFS 알고리즘\최단거리 알고리즘%28BFS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1463(DP).cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 10844.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1520(re).cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
