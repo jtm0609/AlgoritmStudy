@@ -1,2 +1,5 @@
-﻿  백준 1520(re).cpp
+﻿  피보나치 반복문.cpp
+  피보나치 재귀.cpp
+  코드를 생성하고 있습니다...
+C:\Users\jtm06\source\repos\AlgorithmStudying\AlgorithmStudying\피보나치 반복문.cpp(14,9): warning C4244:  'return': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   AlgorithmStudying.vcxproj -> C:\Users\jtm06\source\repos\AlgorithmStudying\Debug\AlgorithmStudying.exe

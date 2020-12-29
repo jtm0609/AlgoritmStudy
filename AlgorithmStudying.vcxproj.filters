@@ -528,8 +528,32 @@
     <ClCompile Include="백준 10844.cpp">
       <Filter>소스 파일\DP 알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="백준 1520(re).cpp">
+    <ClCompile Include="백준 1520%28re%29스터디.cpp">
       <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 DP.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1912.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1105.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 11054.cpp">
+      <Filter>소스 파일\LIS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 11053(DP).cpp">
+      <Filter>소스 파일\LIS 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 2294.cpp">
+      <Filter>소스 파일\DP 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 재귀.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 반복문.cpp">
+      <Filter>소스 파일\CS알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
